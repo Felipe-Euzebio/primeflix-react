@@ -1,9 +1,12 @@
+import { Link } from "react-router-dom";
+import './error.css';
 
 function NotFound() {
     return (
-      <div>
-        <h1>404 Error</h1>
-        <p>Page Not Found</p>
+      <div className="not-found">
+        <h1>Erro 404</h1>
+        <h2>Página Não Encontrada</h2>
+        <Link to="/">Veja todos os filmes</Link>
       </div>
     );
   }
